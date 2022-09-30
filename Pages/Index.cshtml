@@ -4,7 +4,13 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<header class="text-center w-100 header pt-4">
+    <h1 class="display-4 mt-3">Welcome to RazorPages Pizza Store</h1>
+    <p>Order your pizza from the comfort of your office and/or homes.</p>
+
+    <button role="button" class="btn btn-md btn-rounded btn-primary">
+        <a class="nav-link text-light display-5" asp-area="" asp-page="/Pizza">
+            Order Pizza
+        </a>
+    </button>
+</header>

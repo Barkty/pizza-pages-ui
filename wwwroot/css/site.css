@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 html {
   font-size: 14px;
 }
@@ -15,4 +16,19 @@ html {
 
 body {
   margin-bottom: 60px;
+  font-family: 'Space Mono', monospace;
+}
+.header {
+  height: 75vh;
+  background-color: antiquewhite;
+  padding-top: 6rem !important;
+}
+.header h1 {
+  font-weight: 400;
+  font-size: 6rem;
+  white-space: normal;
+  margin-bottom: 3rem !important;
+}
+.header p {
+  margin-bottom: 4rem !important;
 }
